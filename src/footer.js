@@ -21,12 +21,12 @@ const LOGO_SVG = `<svg width="24" height="24" viewBox="0 0 40 40" fill="none" xm
 </g>
 <defs>
 <linearGradient id="paint0_linear_815_266" x1="11.5176" y1="9.51703" x2="36.2755" y2="24.2457" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FC8787"/>
-<stop offset="1" stop-color="#FDA1A1"/>
+<stop stop-color="#B8C2FF"/>
+<stop offset="1" stop-color="#5E6AD2"/>
 </linearGradient>
 <linearGradient id="paint1_linear_815_266" x1="16.9063" y1="13.8235" x2="16.9063" y2="35.5455" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FC8787"/>
-<stop offset="1" stop-color="#FDA1A1"/>
+<stop stop-color="#B8C2FF"/>
+<stop offset="1" stop-color="#5E6AD2"/>
 </linearGradient>
 <clipPath id="clip0_815_266">
 <rect x="35" y="35" width="30" height="30" rx="15" transform="rotate(-180 35 35)" fill="white"/>
