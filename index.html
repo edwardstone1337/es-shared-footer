@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>es-shared-footer — local test</title>
+</head>
+<body>
+  <main style="min-height: 60vh; padding: 24px;">
+    <h1>Local test page</h1>
+    <p>Some dummy content above the footer. The footer is injected into the element below via Shadow DOM.</p>
+    <p>This page uses <code>data-project="fairshare"</code> so &ldquo;Fair Share&rdquo; appears as the active (muted) item.</p>
+  </main>
+
+  <!-- In production the script src will be an absolute URL, e.g. https://footer.edwardstone.design/src/footer.js -->
+  <div id="es-footer" data-project="fairshare"></div>
+  <script type="module" src="./src/footer.js"></script>
+</body>
+</html>
