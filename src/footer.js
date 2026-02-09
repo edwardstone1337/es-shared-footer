@@ -37,6 +37,7 @@ const LOGO_SVG = `<svg width="24" height="24" viewBox="0 0 40 40" fill="none" xm
 function init() {
   const host = document.getElementById('es-footer');
   if (!host) return;
+  host.style.width = '100%';
 
   const shadow = host.attachShadow({ mode: 'open' });
 
