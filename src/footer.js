@@ -34,10 +34,15 @@ const LOGO_SVG = `<svg width="24" height="24" viewBox="0 0 40 40" fill="none" xm
 </defs>
 </svg>`;
 
+function buildUrl(url, sourceProject) {
+  if (!sourceProject) return url;
+  const sep = url.includes('?') ? '&' : '?';
+  return `${url}${sep}utm_source=es-footer&utm_medium=referral&utm_content=${encodeURIComponent(sourceProject)}`;
+}
+
 function init() {
   const host = document.getElementById('es-footer');
   if (!host) return;
-  host.style.width = '100%';
 
   const shadow = host.attachShadow({ mode: 'open' });
 
@@ -54,13 +59,13 @@ function init() {
     if (isActive) {
       return `<li class="es-footer-link es-footer-link--active"><span>${escapeHtml(p.name)}</span></li>`;
     }
-    return `<li class="es-footer-link"><a href="${escapeHtml(p.url)}">${escapeHtml(p.name)}</a></li>`;
+    return `<li class="es-footer-link"><a href="${escapeHtml(buildUrl(p.url, currentProject))}">${escapeHtml(p.name)}</a></li>`;
   }).join('');
 
   const footerHtml = `
 <footer>
   <div class="es-footer-inner">
-    <a class="es-footer-parent" href="https://edwardstone.design">
+    <a class="es-footer-parent" href="${escapeHtml(buildUrl('https://edwardstone.design', currentProject))}">
       <span class="es-footer-logo">${LOGO_SVG}</span>
       Edward Stone
     </a>
