@@ -53,12 +53,6 @@
   box-shadow: 0 0 0 2px transparent, 0 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
-.es-footer-copyright {
-  font-size: 11px;
-  color: rgba(255, 255, 255, 0.2);
-  margin-top: 24px;
-}
-
 .es-footer-links {
   list-style: none;
   margin: 0;
@@ -96,6 +90,33 @@
 .es-footer-link a:focus-visible {
   outline: none;
   box-shadow: 0 0 0 2px transparent, 0 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.es-footer-bmc {
+  margin-top: 24px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.es-footer-bmc a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.es-footer-bmc a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.es-footer-bmc a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px transparent, 0 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.es-footer-copyright {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.2);
+  margin-top: 24px;
 }
 
 .es-footer-link--active span {

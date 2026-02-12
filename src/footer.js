@@ -74,6 +74,7 @@ function init() {
         ${listItems}
       </ul>
     </nav>
+    <p class="es-footer-bmc">Made with ❤️ by Edward. <a href="${escapeHtml(buildUrl('https://buymeacoffee.com/edthedesigner', currentProject))}">Buy me a coffee?</a></p>
     <p class="es-footer-copyright">© ${new Date().getFullYear()} Edward Stone</p>
   </div>
 </footer>`;
