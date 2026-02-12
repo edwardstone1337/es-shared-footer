@@ -93,19 +93,19 @@
 }
 
 .es-footer-bmc {
-  margin-top: 24px;
+  margin: 0 0 24px;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.4);
+  color: #fff;
 }
 
 .es-footer-bmc a {
-  color: rgba(255, 255, 255, 0.5);
-  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
   border-radius: 4px;
 }
 
 .es-footer-bmc a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 .es-footer-bmc a:focus-visible {

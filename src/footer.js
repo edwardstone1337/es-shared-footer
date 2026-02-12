@@ -69,12 +69,12 @@ function init() {
       <span class="es-footer-logo">${LOGO_SVG}</span>
       Edward Stone
     </a>
+    <p class="es-footer-bmc">Made with ❤️ by Edward. <a href="${escapeHtml(buildUrl('https://buymeacoffee.com/edthedesigner', currentProject))}">Buy me a coffee?</a></p>
     <nav aria-label="More from Edward Stone">
       <ul class="es-footer-links">
         ${listItems}
       </ul>
     </nav>
-    <p class="es-footer-bmc">Made with ❤️ by Edward. <a href="${escapeHtml(buildUrl('https://buymeacoffee.com/edthedesigner', currentProject))}">Buy me a coffee?</a></p>
     <p class="es-footer-copyright">© ${new Date().getFullYear()} Edward Stone</p>
   </div>
 </footer>`;
