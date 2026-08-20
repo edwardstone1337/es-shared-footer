@@ -5,11 +5,11 @@
  */
 
 const PROJECTS = [
+  { id: 'kaomoji', name: 'Kaomoji', url: 'https://www.kaomoji.click' },
   { id: 'flip7', name: 'Flip 7', url: 'https://flip7scorecard.com' },
   { id: 'scp', name: 'SCP Reader', url: 'https://scp-reader.co', hidden: true },
   { id: 'fairshare', name: 'Fair Share', url: 'https://fairsharecalculator.com' },
   { id: 'lostcities', name: 'Lost Cities', url: 'https://lostcitiesscorecalculator.com' },
-  { id: 'kaomoji', name: 'Kaomoji', url: 'https://kaomoji.click', hidden: true },
 ];
 
 const LOGO_SVG = `<svg width="24" height="24" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
